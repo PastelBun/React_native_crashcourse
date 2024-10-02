@@ -20,7 +20,7 @@
         "foregroundImage": "./assets/images/logo.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.app.aura"
+      "package": "com.app.aora"
     },
     "web": {
       "bundler": "metro",
@@ -28,7 +28,7 @@
       "favicon": "./assets/images/logo.png"
     },
     "plugins": [
-      "expo-router"
+      "expo-router", "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
