@@ -110,7 +110,7 @@ const Create = () => {
           <TouchableOpacity onPress={() => openPicker("video")}>
             {form.video ? (
               <Video
-                source={{ uri: form.video.uri }}
+                source={{ url: form.video.url }}
                 className="w-full h-64 rounded-2xl"
                 useNativeControls
                 resizeMode={ResizeMode.COVER}
@@ -139,7 +139,7 @@ const Create = () => {
           <TouchableOpacity onPress={() => openPicker("image")}>
             {form.thumbnail ? (
               <Image
-                source={{ uri: form.thumbnail.uri }}
+                source={{ url: form.thumbnail.url }}
                 resizeMode="cover"
                 className="w-full h-64 rounded-2xl"
               />
